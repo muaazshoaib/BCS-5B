@@ -1,0 +1,25 @@
+Producer		Consumer
+0==3			while(counter==0)
+                        while(3==0) No
+			10=[0]
+[0]=10			out=1
+in=1			counter-- (2)
+			
+		        while(2==0)
+			20=[1]
+counter=1               out=2
+                        counter-- (1)
+1==3				
+			while(1==0)
+[1]=20			10=[0]
+in=2			out=1
+counter=2		counter-- (0)
+		
+			while(0==0) Yes
+2==3			/* do nothing */
+[2]=30
+in=3
+counter=3
+
+3==3 yes
+/* do nothing */
